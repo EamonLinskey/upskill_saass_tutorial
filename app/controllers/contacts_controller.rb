@@ -9,8 +9,8 @@ class ContactsController < ApplicationController
             redirect_to new_contact_path, notice: "Message sent."
         else
             redirect_to new_contact_path, notice: "An Error Occured"
-    end
-end    
+        end 
+    end    
 
     private
         def contact_params
